@@ -124,16 +124,13 @@ public class Firstproject1 {
         } else {
             JOptionPane.showMessageDialog(null, "Password is not correctly formatted, please ensure that the password contains at least 8 characters, a capital letter, a number, and a special character.");
             return false;
-        }
+        }   
+    }
 
     private static void addTasks() {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
-
-    private class addTasks() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
-    
+     
     public class TaskManager {
     static String[] developers = new String[100];
     static String[] taskNames = new String[100];
@@ -271,5 +268,5 @@ public class Firstproject1 {
         private static void displayReport() {
             throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
         }
-        }
-    
+   }
+}
